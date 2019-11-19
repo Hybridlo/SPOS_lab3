@@ -6,6 +6,7 @@ import java.util.Vector;
 import java.io.*;
 
 public class SchedulingAlgorithm {
+  static java.util.Random generator = new java.util.Random(System.currentTimeMillis());
 
   public static Results Run(int runtime, Vector processVector, Results result) {
     int i = 0;
@@ -14,7 +15,7 @@ public class SchedulingAlgorithm {
     int previousProcess = 0;
     int size = processVector.size();
     int completed = 0;
-    float coefficient = 1/2;
+    float coefficient = (float) (1.0/2.0);
     String resultsFile = "Summary-Processes";
 
     result.schedulingType = "Interactive (Preemptive)";
@@ -24,11 +25,13 @@ public class SchedulingAlgorithm {
       //OutputStream out = new FileOutputStream(resultsFile);
       PrintStream out = new PrintStream(new FileOutputStream(resultsFile));
       sProcess process = (sProcess) processVector.elementAt(currentProcess);
-      out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+      
+      process.ioBlockingRandomed = process.ioblocking + generator.nextInt(2*process.iorandom) - process.iorandom;
+      out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingRandomed + " " + process.cpudone + " " + process.cpudone + ")");
       while (comptime < runtime) {
         if (process.cpudone == process.cputime) {
           completed++;
-          out.println("Process: " + currentProcess + " completed... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+          out.println("Process: " + currentProcess + " completed... (" + process.cputime + " " + process.ioBlockingRandomed + " " + process.cpudone + " " + process.cpudone + ")");
           if (completed == size) {
             result.compuTime = comptime;
             out.close();
@@ -43,13 +46,14 @@ public class SchedulingAlgorithm {
             }
           }
           process = (sProcess) processVector.elementAt(currentProcess);
-          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+          process.ioBlockingRandomed = process.ioblocking + generator.nextInt(2*process.iorandom) - process.iorandom;
+          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingRandomed + " " + process.cpudone + " " + process.cpudone + ")");
         }      
-        if (process.ioblocking == process.ionext) {
-          out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+        if (process.ioBlockingRandomed == process.ionext) {
+          out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioBlockingRandomed + " " + process.cpudone + " " + process.cpudone + ")");
 
+          process.expectedTime = process.expectedTime * coefficient + process.ioBlockingRandomed * (1 - coefficient);
           out.println("Process: " + currentProcess + " expected time = " + process.expectedTime);
-          process.expectedTime = process.expectedTime * coefficient + process.ioblocking * (1 - coefficient);
           process.numblocked++;
           process.ionext = 0; 
           previousProcess = currentProcess;
@@ -62,10 +66,11 @@ public class SchedulingAlgorithm {
             }
           }
           process = (sProcess) processVector.elementAt(currentProcess);
-          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+          process.ioBlockingRandomed = process.ioblocking + generator.nextInt(2*process.iorandom) - process.iorandom;
+          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingRandomed + " " + process.cpudone + " " + process.cpudone + ")");
         }        
         process.cpudone++;       
-        if (process.ioblocking > 0) {
+        if (process.ioBlockingRandomed > 0) {
           process.ionext++;
         }
         comptime++;
