@@ -14,6 +14,7 @@ public class SchedulingAlgorithm {
     int previousProcess = 0;
     int size = processVector.size();
     int completed = 0;
+    float coefficient = 1/2;
     String resultsFile = "Summary-Processes";
 
     result.schedulingType = "Interactive (Preemptive)";
@@ -33,10 +34,12 @@ public class SchedulingAlgorithm {
             out.close();
             return result;
           }
+          float minExpectedTime = 1000000;
           for (i = size - 1; i >= 0; i--) {
             process = (sProcess) processVector.elementAt(i);
-            if (process.cpudone < process.cputime) { 
-              currentProcess = i;
+            if (process.expectedTime < minExpectedTime && process.cpudone < process.cputime) {
+            	minExpectedTime = process.expectedTime;
+            	currentProcess = i;
             }
           }
           process = (sProcess) processVector.elementAt(currentProcess);
@@ -44,13 +47,18 @@ public class SchedulingAlgorithm {
         }      
         if (process.ioblocking == process.ionext) {
           out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+
+          out.println("Process: " + currentProcess + " expected time = " + process.expectedTime);
+          process.expectedTime = process.expectedTime * coefficient + process.ioblocking * (1 - coefficient);
           process.numblocked++;
           process.ionext = 0; 
           previousProcess = currentProcess;
+          float minExpectedTime = 1000000;
           for (i = size - 1; i >= 0; i--) {
             process = (sProcess) processVector.elementAt(i);
-            if (process.cpudone < process.cputime && previousProcess != i) { 
-              currentProcess = i;
+            if (process.expectedTime < minExpectedTime && previousProcess != i && process.cpudone < process.cputime) { 
+            	minExpectedTime = process.expectedTime;
+            	currentProcess = i;
             }
           }
           process = (sProcess) processVector.elementAt(currentProcess);
