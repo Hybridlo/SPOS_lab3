@@ -1,0 +1,8 @@
+.project
+.classpath
+*.class
+*.txt
+*.TXT
+sched.tgz
+stdout.txt
+*.html
