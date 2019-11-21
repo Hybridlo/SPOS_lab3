@@ -1,719 +1,791 @@
-Process: 0 registered... (2964 836 0 0)
-Process: 0 I/O blocked... (2964 836 836 836)
-Process: 0 expected time = 818.0
-Process: 3 registered... (2772 19 0 0)
-Process: 3 I/O blocked... (2772 19 19 19)
-Process: 3 expected time = 17.0
-Process: 2 registered... (2252 78 0 0)
-Process: 2 I/O blocked... (2252 78 78 78)
-Process: 2 expected time = 74.0
-Process: 3 registered... (2772 19 19 19)
-Process: 3 I/O blocked... (2772 19 38 38)
-Process: 3 expected time = 18.0
-Process: 2 registered... (2252 70 78 78)
-Process: 2 I/O blocked... (2252 70 148 148)
-Process: 2 expected time = 72.0
-Process: 3 registered... (2772 18 38 38)
-Process: 3 I/O blocked... (2772 18 56 56)
-Process: 3 expected time = 18.0
-Process: 2 registered... (2252 71 148 148)
-Process: 2 I/O blocked... (2252 71 219 219)
-Process: 2 expected time = 71.5
-Process: 3 registered... (2772 15 56 56)
-Process: 3 I/O blocked... (2772 15 71 71)
-Process: 3 expected time = 16.5
-Process: 2 registered... (2252 86 219 219)
-Process: 2 I/O blocked... (2252 86 305 305)
-Process: 2 expected time = 78.75
-Process: 3 registered... (2772 14 71 71)
-Process: 3 I/O blocked... (2772 14 85 85)
-Process: 3 expected time = 15.25
-Process: 2 registered... (2252 54 305 305)
-Process: 2 I/O blocked... (2252 54 359 359)
-Process: 2 expected time = 66.375
-Process: 3 registered... (2772 17 85 85)
-Process: 3 I/O blocked... (2772 17 102 102)
-Process: 3 expected time = 16.125
-Process: 2 registered... (2252 59 359 359)
-Process: 2 I/O blocked... (2252 59 418 418)
-Process: 2 expected time = 62.6875
-Process: 3 registered... (2772 11 102 102)
-Process: 3 I/O blocked... (2772 11 113 113)
-Process: 3 expected time = 13.5625
-Process: 2 registered... (2252 82 418 418)
-Process: 2 I/O blocked... (2252 82 500 500)
-Process: 2 expected time = 72.34375
-Process: 3 registered... (2772 14 113 113)
-Process: 3 I/O blocked... (2772 14 127 127)
-Process: 3 expected time = 13.78125
-Process: 2 registered... (2252 74 500 500)
-Process: 2 I/O blocked... (2252 74 574 574)
-Process: 2 expected time = 73.171875
-Process: 3 registered... (2772 17 127 127)
-Process: 3 I/O blocked... (2772 17 144 144)
-Process: 3 expected time = 15.390625
-Process: 2 registered... (2252 59 574 574)
-Process: 2 I/O blocked... (2252 59 633 633)
-Process: 2 expected time = 66.08594
-Process: 3 registered... (2772 11 144 144)
-Process: 3 I/O blocked... (2772 11 155 155)
-Process: 3 expected time = 13.1953125
-Process: 2 registered... (2252 85 633 633)
-Process: 2 I/O blocked... (2252 85 718 718)
-Process: 2 expected time = 75.54297
-Process: 3 registered... (2772 17 155 155)
-Process: 3 I/O blocked... (2772 17 172 172)
-Process: 3 expected time = 15.097656
-Process: 2 registered... (2252 72 718 718)
-Process: 2 I/O blocked... (2252 72 790 790)
-Process: 2 expected time = 73.771484
-Process: 3 registered... (2772 17 172 172)
-Process: 3 I/O blocked... (2772 17 189 189)
-Process: 3 expected time = 16.048828
-Process: 2 registered... (2252 81 790 790)
-Process: 2 I/O blocked... (2252 81 871 871)
-Process: 2 expected time = 77.38574
-Process: 3 registered... (2772 11 189 189)
-Process: 3 I/O blocked... (2772 11 200 200)
-Process: 3 expected time = 13.524414
-Process: 2 registered... (2252 60 871 871)
-Process: 2 I/O blocked... (2252 60 931 931)
-Process: 2 expected time = 68.69287
-Process: 3 registered... (2772 17 200 200)
-Process: 3 I/O blocked... (2772 17 217 217)
-Process: 3 expected time = 15.262207
-Process: 2 registered... (2252 51 931 931)
-Process: 2 I/O blocked... (2252 51 982 982)
-Process: 2 expected time = 59.846436
-Process: 3 registered... (2772 12 217 217)
-Process: 3 I/O blocked... (2772 12 229 229)
-Process: 3 expected time = 13.6311035
-Process: 2 registered... (2252 50 982 982)
-Process: 2 I/O blocked... (2252 50 1032 1032)
-Process: 2 expected time = 54.923218
-Process: 3 registered... (2772 16 229 229)
-Process: 3 I/O blocked... (2772 16 245 245)
-Process: 3 expected time = 14.815552
-Process: 2 registered... (2252 58 1032 1032)
-Process: 2 I/O blocked... (2252 58 1090 1090)
-Process: 2 expected time = 56.46161
-Process: 3 registered... (2772 12 245 245)
-Process: 3 I/O blocked... (2772 12 257 257)
-Process: 3 expected time = 13.407776
-Process: 2 registered... (2252 72 1090 1090)
-Process: 2 I/O blocked... (2252 72 1162 1162)
-Process: 2 expected time = 64.230804
-Process: 3 registered... (2772 11 257 257)
-Process: 3 I/O blocked... (2772 11 268 268)
-Process: 3 expected time = 12.203888
-Process: 2 registered... (2252 72 1162 1162)
-Process: 2 I/O blocked... (2252 72 1234 1234)
-Process: 2 expected time = 68.1154
-Process: 3 registered... (2772 11 268 268)
-Process: 3 I/O blocked... (2772 11 279 279)
-Process: 3 expected time = 11.601944
-Process: 2 registered... (2252 88 1234 1234)
-Process: 2 I/O blocked... (2252 88 1322 1322)
-Process: 2 expected time = 78.0577
-Process: 3 registered... (2772 12 279 279)
-Process: 3 I/O blocked... (2772 12 291 291)
-Process: 3 expected time = 11.800972
-Process: 2 registered... (2252 83 1322 1322)
-Process: 2 I/O blocked... (2252 83 1405 1405)
-Process: 2 expected time = 80.528854
-Process: 3 registered... (2772 18 291 291)
-Process: 3 I/O blocked... (2772 18 309 309)
-Process: 3 expected time = 14.900486
-Process: 2 registered... (2252 64 1405 1405)
-Process: 2 I/O blocked... (2252 64 1469 1469)
-Process: 2 expected time = 72.26443
-Process: 3 registered... (2772 14 309 309)
-Process: 3 I/O blocked... (2772 14 323 323)
-Process: 3 expected time = 14.450243
-Process: 2 registered... (2252 64 1469 1469)
-Process: 2 I/O blocked... (2252 64 1533 1533)
-Process: 2 expected time = 68.13222
-Process: 3 registered... (2772 17 323 323)
-Process: 3 I/O blocked... (2772 17 340 340)
-Process: 3 expected time = 15.7251215
-Process: 2 registered... (2252 75 1533 1533)
-Process: 2 I/O blocked... (2252 75 1608 1608)
-Process: 2 expected time = 71.56611
-Process: 3 registered... (2772 12 340 340)
-Process: 3 I/O blocked... (2772 12 352 352)
-Process: 3 expected time = 13.86256
-Process: 2 registered... (2252 55 1608 1608)
-Process: 2 I/O blocked... (2252 55 1663 1663)
-Process: 2 expected time = 63.283054
-Process: 3 registered... (2772 16 352 352)
-Process: 3 I/O blocked... (2772 16 368 368)
-Process: 3 expected time = 14.93128
-Process: 2 registered... (2252 65 1663 1663)
-Process: 2 I/O blocked... (2252 65 1728 1728)
-Process: 2 expected time = 64.141525
-Process: 3 registered... (2772 11 368 368)
-Process: 3 I/O blocked... (2772 11 379 379)
-Process: 3 expected time = 12.96564
-Process: 2 registered... (2252 57 1728 1728)
-Process: 2 I/O blocked... (2252 57 1785 1785)
-Process: 2 expected time = 60.570763
-Process: 3 registered... (2772 13 379 379)
-Process: 3 I/O blocked... (2772 13 392 392)
-Process: 3 expected time = 12.9828205
-Process: 2 registered... (2252 57 1785 1785)
-Process: 2 I/O blocked... (2252 57 1842 1842)
-Process: 2 expected time = 58.78538
-Process: 3 registered... (2772 14 392 392)
-Process: 3 I/O blocked... (2772 14 406 406)
-Process: 3 expected time = 13.49141
-Process: 2 registered... (2252 78 1842 1842)
-Process: 2 I/O blocked... (2252 78 1920 1920)
-Process: 2 expected time = 68.39269
-Process: 3 registered... (2772 11 406 406)
-Process: 3 I/O blocked... (2772 11 417 417)
-Process: 3 expected time = 12.245705
-Process: 2 registered... (2252 71 1920 1920)
-Process: 2 I/O blocked... (2252 71 1991 1991)
-Process: 2 expected time = 69.69635
-Process: 3 registered... (2772 11 417 417)
-Process: 3 I/O blocked... (2772 11 428 428)
-Process: 3 expected time = 11.622852
-Process: 2 registered... (2252 59 1991 1991)
-Process: 2 I/O blocked... (2252 59 2050 2050)
-Process: 2 expected time = 64.348175
-Process: 3 registered... (2772 10 428 428)
-Process: 3 I/O blocked... (2772 10 438 438)
-Process: 3 expected time = 10.811426
-Process: 2 registered... (2252 81 2050 2050)
-Process: 2 I/O blocked... (2252 81 2131 2131)
-Process: 2 expected time = 72.67409
-Process: 3 registered... (2772 17 438 438)
-Process: 3 I/O blocked... (2772 17 455 455)
-Process: 3 expected time = 13.905713
-Process: 2 registered... (2252 56 2131 2131)
-Process: 2 I/O blocked... (2252 56 2187 2187)
-Process: 2 expected time = 64.33704
-Process: 3 registered... (2772 14 455 455)
-Process: 3 I/O blocked... (2772 14 469 469)
-Process: 3 expected time = 13.952856
-Process: 2 registered... (2252 75 2187 2187)
-Process: 2 completed... (2252 75 2252 2252)
-Process: 3 registered... (2772 10 469 469)
-Process: 3 I/O blocked... (2772 10 479 479)
-Process: 3 expected time = 11.976428
-Process: 1 registered... (2315 374 0 0)
-Process: 1 I/O blocked... (2315 374 374 374)
-Process: 1 expected time = 337.0
-Process: 3 registered... (2772 10 479 479)
-Process: 3 I/O blocked... (2772 10 489 489)
-Process: 3 expected time = 10.9882145
-Process: 1 registered... (2315 328 374 374)
-Process: 1 I/O blocked... (2315 328 702 702)
-Process: 1 expected time = 332.5
-Process: 3 registered... (2772 17 489 489)
-Process: 3 I/O blocked... (2772 17 506 506)
-Process: 3 expected time = 13.994107
-Process: 1 registered... (2315 335 702 702)
-Process: 1 I/O blocked... (2315 335 1037 1037)
-Process: 1 expected time = 333.75
-Process: 3 registered... (2772 15 506 506)
-Process: 3 I/O blocked... (2772 15 521 521)
-Process: 3 expected time = 14.497053
-Process: 1 registered... (2315 252 1037 1037)
-Process: 1 I/O blocked... (2315 252 1289 1289)
-Process: 1 expected time = 292.875
-Process: 3 registered... (2772 17 521 521)
-Process: 3 I/O blocked... (2772 17 538 538)
-Process: 3 expected time = 15.748527
-Process: 1 registered... (2315 306 1289 1289)
-Process: 1 I/O blocked... (2315 306 1595 1595)
-Process: 1 expected time = 299.4375
-Process: 3 registered... (2772 12 538 538)
-Process: 3 I/O blocked... (2772 12 550 550)
-Process: 3 expected time = 13.874264
-Process: 1 registered... (2315 310 1595 1595)
-Process: 1 I/O blocked... (2315 310 1905 1905)
-Process: 1 expected time = 304.71875
-Process: 3 registered... (2772 18 550 550)
-Process: 3 I/O blocked... (2772 18 568 568)
-Process: 3 expected time = 15.937132
-Process: 1 registered... (2315 284 1905 1905)
-Process: 1 I/O blocked... (2315 284 2189 2189)
-Process: 1 expected time = 294.35938
-Process: 3 registered... (2772 12 568 568)
-Process: 3 I/O blocked... (2772 12 580 580)
-Process: 3 expected time = 13.968566
-Process: 1 registered... (2315 329 2189 2189)
-Process: 1 completed... (2315 329 2315 2315)
-Process: 3 registered... (2772 16 580 580)
-Process: 3 I/O blocked... (2772 16 596 596)
-Process: 3 expected time = 14.984283
-Process: 0 registered... (2964 891 836 836)
-Process: 0 I/O blocked... (2964 891 1727 1727)
-Process: 0 expected time = 854.5
-Process: 3 registered... (2772 17 596 596)
-Process: 3 I/O blocked... (2772 17 613 613)
-Process: 3 expected time = 15.992142
-Process: 0 registered... (2964 997 1727 1727)
-Process: 0 I/O blocked... (2964 997 2724 2724)
-Process: 0 expected time = 925.75
-Process: 3 registered... (2772 15 613 613)
-Process: 3 I/O blocked... (2772 15 628 628)
-Process: 3 expected time = 15.496071
-Process: 0 registered... (2964 685 2724 2724)
-Process: 0 completed... (2964 685 2964 2964)
-Process: 3 registered... (2772 17 628 628)
-Process: 3 I/O blocked... (2772 17 645 645)
-Process: 3 expected time = 16.248035
-Process: 3 registered... (2772 16 645 645)
-Process: 3 I/O blocked... (2772 16 661 661)
-Process: 3 expected time = 16.124018
-Process: 3 registered... (2772 11 661 661)
-Process: 3 I/O blocked... (2772 11 672 672)
-Process: 3 expected time = 13.562009
-Process: 3 registered... (2772 15 672 672)
-Process: 3 I/O blocked... (2772 15 687 687)
-Process: 3 expected time = 14.281004
-Process: 3 registered... (2772 15 687 687)
-Process: 3 I/O blocked... (2772 15 702 702)
-Process: 3 expected time = 14.640502
-Process: 3 registered... (2772 19 702 702)
-Process: 3 I/O blocked... (2772 19 721 721)
-Process: 3 expected time = 16.820251
-Process: 3 registered... (2772 14 721 721)
-Process: 3 I/O blocked... (2772 14 735 735)
-Process: 3 expected time = 15.410126
-Process: 3 registered... (2772 13 735 735)
-Process: 3 I/O blocked... (2772 13 748 748)
-Process: 3 expected time = 14.205063
-Process: 3 registered... (2772 19 748 748)
-Process: 3 I/O blocked... (2772 19 767 767)
-Process: 3 expected time = 16.602531
-Process: 3 registered... (2772 13 767 767)
-Process: 3 I/O blocked... (2772 13 780 780)
-Process: 3 expected time = 14.801266
-Process: 3 registered... (2772 14 780 780)
-Process: 3 I/O blocked... (2772 14 794 794)
-Process: 3 expected time = 14.400633
-Process: 3 registered... (2772 11 794 794)
-Process: 3 I/O blocked... (2772 11 805 805)
-Process: 3 expected time = 12.700316
-Process: 3 registered... (2772 14 805 805)
-Process: 3 I/O blocked... (2772 14 819 819)
-Process: 3 expected time = 13.350159
-Process: 3 registered... (2772 12 819 819)
-Process: 3 I/O blocked... (2772 12 831 831)
-Process: 3 expected time = 12.675079
-Process: 3 registered... (2772 18 831 831)
-Process: 3 I/O blocked... (2772 18 849 849)
-Process: 3 expected time = 15.33754
-Process: 3 registered... (2772 14 849 849)
-Process: 3 I/O blocked... (2772 14 863 863)
-Process: 3 expected time = 14.66877
-Process: 3 registered... (2772 10 863 863)
-Process: 3 I/O blocked... (2772 10 873 873)
-Process: 3 expected time = 12.334385
-Process: 3 registered... (2772 14 873 873)
-Process: 3 I/O blocked... (2772 14 887 887)
-Process: 3 expected time = 13.167192
-Process: 3 registered... (2772 13 887 887)
-Process: 3 I/O blocked... (2772 13 900 900)
-Process: 3 expected time = 13.083596
-Process: 3 registered... (2772 11 900 900)
-Process: 3 I/O blocked... (2772 11 911 911)
-Process: 3 expected time = 12.041798
-Process: 3 registered... (2772 13 911 911)
-Process: 3 I/O blocked... (2772 13 924 924)
-Process: 3 expected time = 12.520899
-Process: 3 registered... (2772 17 924 924)
-Process: 3 I/O blocked... (2772 17 941 941)
-Process: 3 expected time = 14.760449
-Process: 3 registered... (2772 12 941 941)
-Process: 3 I/O blocked... (2772 12 953 953)
-Process: 3 expected time = 13.380224
-Process: 3 registered... (2772 19 953 953)
-Process: 3 I/O blocked... (2772 19 972 972)
-Process: 3 expected time = 16.190113
-Process: 3 registered... (2772 13 972 972)
-Process: 3 I/O blocked... (2772 13 985 985)
-Process: 3 expected time = 14.595057
-Process: 3 registered... (2772 13 985 985)
-Process: 3 I/O blocked... (2772 13 998 998)
-Process: 3 expected time = 13.797528
-Process: 3 registered... (2772 18 998 998)
-Process: 3 I/O blocked... (2772 18 1016 1016)
-Process: 3 expected time = 15.898764
-Process: 3 registered... (2772 16 1016 1016)
-Process: 3 I/O blocked... (2772 16 1032 1032)
-Process: 3 expected time = 15.949382
-Process: 3 registered... (2772 13 1032 1032)
-Process: 3 I/O blocked... (2772 13 1045 1045)
-Process: 3 expected time = 14.474691
-Process: 3 registered... (2772 19 1045 1045)
-Process: 3 I/O blocked... (2772 19 1064 1064)
-Process: 3 expected time = 16.737347
-Process: 3 registered... (2772 15 1064 1064)
-Process: 3 I/O blocked... (2772 15 1079 1079)
-Process: 3 expected time = 15.868673
-Process: 3 registered... (2772 19 1079 1079)
-Process: 3 I/O blocked... (2772 19 1098 1098)
-Process: 3 expected time = 17.434338
-Process: 3 registered... (2772 19 1098 1098)
-Process: 3 I/O blocked... (2772 19 1117 1117)
-Process: 3 expected time = 18.217169
-Process: 3 registered... (2772 11 1117 1117)
-Process: 3 I/O blocked... (2772 11 1128 1128)
-Process: 3 expected time = 14.608584
-Process: 3 registered... (2772 16 1128 1128)
-Process: 3 I/O blocked... (2772 16 1144 1144)
-Process: 3 expected time = 15.304293
-Process: 3 registered... (2772 15 1144 1144)
-Process: 3 I/O blocked... (2772 15 1159 1159)
-Process: 3 expected time = 15.152146
-Process: 3 registered... (2772 12 1159 1159)
-Process: 3 I/O blocked... (2772 12 1171 1171)
-Process: 3 expected time = 13.576073
-Process: 3 registered... (2772 13 1171 1171)
-Process: 3 I/O blocked... (2772 13 1184 1184)
-Process: 3 expected time = 13.288036
-Process: 3 registered... (2772 14 1184 1184)
-Process: 3 I/O blocked... (2772 14 1198 1198)
-Process: 3 expected time = 13.644018
-Process: 3 registered... (2772 16 1198 1198)
-Process: 3 I/O blocked... (2772 16 1214 1214)
-Process: 3 expected time = 14.822009
-Process: 3 registered... (2772 15 1214 1214)
-Process: 3 I/O blocked... (2772 15 1229 1229)
-Process: 3 expected time = 14.911005
-Process: 3 registered... (2772 10 1229 1229)
-Process: 3 I/O blocked... (2772 10 1239 1239)
-Process: 3 expected time = 12.4555025
-Process: 3 registered... (2772 12 1239 1239)
-Process: 3 I/O blocked... (2772 12 1251 1251)
-Process: 3 expected time = 12.227751
-Process: 3 registered... (2772 19 1251 1251)
-Process: 3 I/O blocked... (2772 19 1270 1270)
-Process: 3 expected time = 15.613875
-Process: 3 registered... (2772 18 1270 1270)
-Process: 3 I/O blocked... (2772 18 1288 1288)
-Process: 3 expected time = 16.806938
-Process: 3 registered... (2772 15 1288 1288)
-Process: 3 I/O blocked... (2772 15 1303 1303)
-Process: 3 expected time = 15.903469
-Process: 3 registered... (2772 11 1303 1303)
-Process: 3 I/O blocked... (2772 11 1314 1314)
-Process: 3 expected time = 13.451735
-Process: 3 registered... (2772 16 1314 1314)
-Process: 3 I/O blocked... (2772 16 1330 1330)
-Process: 3 expected time = 14.725867
-Process: 3 registered... (2772 12 1330 1330)
-Process: 3 I/O blocked... (2772 12 1342 1342)
-Process: 3 expected time = 13.362934
-Process: 3 registered... (2772 16 1342 1342)
-Process: 3 I/O blocked... (2772 16 1358 1358)
-Process: 3 expected time = 14.681467
-Process: 3 registered... (2772 16 1358 1358)
-Process: 3 I/O blocked... (2772 16 1374 1374)
-Process: 3 expected time = 15.340734
-Process: 3 registered... (2772 16 1374 1374)
-Process: 3 I/O blocked... (2772 16 1390 1390)
-Process: 3 expected time = 15.670366
-Process: 3 registered... (2772 17 1390 1390)
-Process: 3 I/O blocked... (2772 17 1407 1407)
-Process: 3 expected time = 16.335182
-Process: 3 registered... (2772 13 1407 1407)
-Process: 3 I/O blocked... (2772 13 1420 1420)
-Process: 3 expected time = 14.667591
-Process: 3 registered... (2772 17 1420 1420)
-Process: 3 I/O blocked... (2772 17 1437 1437)
-Process: 3 expected time = 15.833796
-Process: 3 registered... (2772 12 1437 1437)
-Process: 3 I/O blocked... (2772 12 1449 1449)
-Process: 3 expected time = 13.916898
-Process: 3 registered... (2772 13 1449 1449)
-Process: 3 I/O blocked... (2772 13 1462 1462)
-Process: 3 expected time = 13.458448
-Process: 3 registered... (2772 15 1462 1462)
-Process: 3 I/O blocked... (2772 15 1477 1477)
-Process: 3 expected time = 14.229224
-Process: 3 registered... (2772 14 1477 1477)
-Process: 3 I/O blocked... (2772 14 1491 1491)
-Process: 3 expected time = 14.114613
-Process: 3 registered... (2772 14 1491 1491)
-Process: 3 I/O blocked... (2772 14 1505 1505)
-Process: 3 expected time = 14.057306
-Process: 3 registered... (2772 14 1505 1505)
-Process: 3 I/O blocked... (2772 14 1519 1519)
-Process: 3 expected time = 14.028653
-Process: 3 registered... (2772 11 1519 1519)
-Process: 3 I/O blocked... (2772 11 1530 1530)
-Process: 3 expected time = 12.514326
-Process: 3 registered... (2772 12 1530 1530)
-Process: 3 I/O blocked... (2772 12 1542 1542)
-Process: 3 expected time = 12.257163
-Process: 3 registered... (2772 12 1542 1542)
-Process: 3 I/O blocked... (2772 12 1554 1554)
-Process: 3 expected time = 12.128582
-Process: 3 registered... (2772 17 1554 1554)
-Process: 3 I/O blocked... (2772 17 1571 1571)
-Process: 3 expected time = 14.564291
-Process: 3 registered... (2772 14 1571 1571)
-Process: 3 I/O blocked... (2772 14 1585 1585)
-Process: 3 expected time = 14.2821455
-Process: 3 registered... (2772 11 1585 1585)
-Process: 3 I/O blocked... (2772 11 1596 1596)
-Process: 3 expected time = 12.641073
-Process: 3 registered... (2772 10 1596 1596)
-Process: 3 I/O blocked... (2772 10 1606 1606)
-Process: 3 expected time = 11.320537
-Process: 3 registered... (2772 10 1606 1606)
-Process: 3 I/O blocked... (2772 10 1616 1616)
-Process: 3 expected time = 10.660269
-Process: 3 registered... (2772 16 1616 1616)
-Process: 3 I/O blocked... (2772 16 1632 1632)
-Process: 3 expected time = 13.330134
-Process: 3 registered... (2772 11 1632 1632)
-Process: 3 I/O blocked... (2772 11 1643 1643)
-Process: 3 expected time = 12.165068
-Process: 3 registered... (2772 12 1643 1643)
-Process: 3 I/O blocked... (2772 12 1655 1655)
-Process: 3 expected time = 12.082534
-Process: 3 registered... (2772 19 1655 1655)
-Process: 3 I/O blocked... (2772 19 1674 1674)
-Process: 3 expected time = 15.541267
-Process: 3 registered... (2772 16 1674 1674)
-Process: 3 I/O blocked... (2772 16 1690 1690)
-Process: 3 expected time = 15.770634
-Process: 3 registered... (2772 17 1690 1690)
-Process: 3 I/O blocked... (2772 17 1707 1707)
-Process: 3 expected time = 16.385317
-Process: 3 registered... (2772 12 1707 1707)
-Process: 3 I/O blocked... (2772 12 1719 1719)
-Process: 3 expected time = 14.192658
-Process: 3 registered... (2772 10 1719 1719)
-Process: 3 I/O blocked... (2772 10 1729 1729)
-Process: 3 expected time = 12.096329
-Process: 3 registered... (2772 12 1729 1729)
-Process: 3 I/O blocked... (2772 12 1741 1741)
-Process: 3 expected time = 12.048164
-Process: 3 registered... (2772 14 1741 1741)
-Process: 3 I/O blocked... (2772 14 1755 1755)
-Process: 3 expected time = 13.024082
-Process: 3 registered... (2772 18 1755 1755)
-Process: 3 I/O blocked... (2772 18 1773 1773)
-Process: 3 expected time = 15.512041
-Process: 3 registered... (2772 10 1773 1773)
-Process: 3 I/O blocked... (2772 10 1783 1783)
-Process: 3 expected time = 12.756021
-Process: 3 registered... (2772 19 1783 1783)
-Process: 3 I/O blocked... (2772 19 1802 1802)
-Process: 3 expected time = 15.87801
-Process: 3 registered... (2772 18 1802 1802)
-Process: 3 I/O blocked... (2772 18 1820 1820)
-Process: 3 expected time = 16.939005
-Process: 3 registered... (2772 10 1820 1820)
-Process: 3 I/O blocked... (2772 10 1830 1830)
-Process: 3 expected time = 13.469502
-Process: 3 registered... (2772 14 1830 1830)
-Process: 3 I/O blocked... (2772 14 1844 1844)
-Process: 3 expected time = 13.734751
-Process: 3 registered... (2772 10 1844 1844)
-Process: 3 I/O blocked... (2772 10 1854 1854)
-Process: 3 expected time = 11.867375
-Process: 3 registered... (2772 13 1854 1854)
-Process: 3 I/O blocked... (2772 13 1867 1867)
-Process: 3 expected time = 12.433687
-Process: 3 registered... (2772 14 1867 1867)
-Process: 3 I/O blocked... (2772 14 1881 1881)
-Process: 3 expected time = 13.216844
-Process: 3 registered... (2772 15 1881 1881)
-Process: 3 I/O blocked... (2772 15 1896 1896)
-Process: 3 expected time = 14.108421
-Process: 3 registered... (2772 11 1896 1896)
-Process: 3 I/O blocked... (2772 11 1907 1907)
-Process: 3 expected time = 12.554211
-Process: 3 registered... (2772 14 1907 1907)
-Process: 3 I/O blocked... (2772 14 1921 1921)
-Process: 3 expected time = 13.277105
-Process: 3 registered... (2772 10 1921 1921)
-Process: 3 I/O blocked... (2772 10 1931 1931)
-Process: 3 expected time = 11.638553
-Process: 3 registered... (2772 13 1931 1931)
-Process: 3 I/O blocked... (2772 13 1944 1944)
-Process: 3 expected time = 12.319277
-Process: 3 registered... (2772 11 1944 1944)
-Process: 3 I/O blocked... (2772 11 1955 1955)
-Process: 3 expected time = 11.659638
-Process: 3 registered... (2772 18 1955 1955)
-Process: 3 I/O blocked... (2772 18 1973 1973)
-Process: 3 expected time = 14.829819
-Process: 3 registered... (2772 10 1973 1973)
-Process: 3 I/O blocked... (2772 10 1983 1983)
-Process: 3 expected time = 12.414909
-Process: 3 registered... (2772 11 1983 1983)
-Process: 3 I/O blocked... (2772 11 1994 1994)
-Process: 3 expected time = 11.707455
-Process: 3 registered... (2772 10 1994 1994)
-Process: 3 I/O blocked... (2772 10 2004 2004)
-Process: 3 expected time = 10.853727
-Process: 3 registered... (2772 14 2004 2004)
-Process: 3 I/O blocked... (2772 14 2018 2018)
-Process: 3 expected time = 12.426864
-Process: 3 registered... (2772 17 2018 2018)
-Process: 3 I/O blocked... (2772 17 2035 2035)
-Process: 3 expected time = 14.713432
-Process: 3 registered... (2772 15 2035 2035)
-Process: 3 I/O blocked... (2772 15 2050 2050)
-Process: 3 expected time = 14.856716
-Process: 3 registered... (2772 17 2050 2050)
-Process: 3 I/O blocked... (2772 17 2067 2067)
-Process: 3 expected time = 15.928358
-Process: 3 registered... (2772 17 2067 2067)
-Process: 3 I/O blocked... (2772 17 2084 2084)
-Process: 3 expected time = 16.46418
-Process: 3 registered... (2772 13 2084 2084)
-Process: 3 I/O blocked... (2772 13 2097 2097)
-Process: 3 expected time = 14.73209
-Process: 3 registered... (2772 11 2097 2097)
-Process: 3 I/O blocked... (2772 11 2108 2108)
-Process: 3 expected time = 12.866045
-Process: 3 registered... (2772 17 2108 2108)
-Process: 3 I/O blocked... (2772 17 2125 2125)
-Process: 3 expected time = 14.9330225
-Process: 3 registered... (2772 16 2125 2125)
-Process: 3 I/O blocked... (2772 16 2141 2141)
-Process: 3 expected time = 15.466511
-Process: 3 registered... (2772 17 2141 2141)
-Process: 3 I/O blocked... (2772 17 2158 2158)
-Process: 3 expected time = 16.233255
-Process: 3 registered... (2772 17 2158 2158)
-Process: 3 I/O blocked... (2772 17 2175 2175)
-Process: 3 expected time = 16.616627
-Process: 3 registered... (2772 13 2175 2175)
-Process: 3 I/O blocked... (2772 13 2188 2188)
-Process: 3 expected time = 14.808313
-Process: 3 registered... (2772 11 2188 2188)
-Process: 3 I/O blocked... (2772 11 2199 2199)
-Process: 3 expected time = 12.904157
-Process: 3 registered... (2772 13 2199 2199)
-Process: 3 I/O blocked... (2772 13 2212 2212)
-Process: 3 expected time = 12.952078
-Process: 3 registered... (2772 12 2212 2212)
-Process: 3 I/O blocked... (2772 12 2224 2224)
-Process: 3 expected time = 12.476039
-Process: 3 registered... (2772 10 2224 2224)
-Process: 3 I/O blocked... (2772 10 2234 2234)
-Process: 3 expected time = 11.23802
-Process: 3 registered... (2772 13 2234 2234)
-Process: 3 I/O blocked... (2772 13 2247 2247)
-Process: 3 expected time = 12.11901
-Process: 3 registered... (2772 17 2247 2247)
-Process: 3 I/O blocked... (2772 17 2264 2264)
-Process: 3 expected time = 14.559505
-Process: 3 registered... (2772 11 2264 2264)
-Process: 3 I/O blocked... (2772 11 2275 2275)
-Process: 3 expected time = 12.779753
-Process: 3 registered... (2772 19 2275 2275)
-Process: 3 I/O blocked... (2772 19 2294 2294)
-Process: 3 expected time = 15.889876
-Process: 3 registered... (2772 12 2294 2294)
-Process: 3 I/O blocked... (2772 12 2306 2306)
-Process: 3 expected time = 13.944939
-Process: 3 registered... (2772 13 2306 2306)
-Process: 3 I/O blocked... (2772 13 2319 2319)
-Process: 3 expected time = 13.472469
-Process: 3 registered... (2772 16 2319 2319)
-Process: 3 I/O blocked... (2772 16 2335 2335)
-Process: 3 expected time = 14.736235
-Process: 3 registered... (2772 11 2335 2335)
-Process: 3 I/O blocked... (2772 11 2346 2346)
-Process: 3 expected time = 12.868117
-Process: 3 registered... (2772 13 2346 2346)
-Process: 3 I/O blocked... (2772 13 2359 2359)
-Process: 3 expected time = 12.934059
-Process: 3 registered... (2772 12 2359 2359)
-Process: 3 I/O blocked... (2772 12 2371 2371)
-Process: 3 expected time = 12.46703
-Process: 3 registered... (2772 16 2371 2371)
-Process: 3 I/O blocked... (2772 16 2387 2387)
-Process: 3 expected time = 14.233515
-Process: 3 registered... (2772 12 2387 2387)
-Process: 3 I/O blocked... (2772 12 2399 2399)
-Process: 3 expected time = 13.116757
-Process: 3 registered... (2772 10 2399 2399)
-Process: 3 I/O blocked... (2772 10 2409 2409)
-Process: 3 expected time = 11.558378
-Process: 3 registered... (2772 16 2409 2409)
-Process: 3 I/O blocked... (2772 16 2425 2425)
-Process: 3 expected time = 13.779189
-Process: 3 registered... (2772 10 2425 2425)
-Process: 3 I/O blocked... (2772 10 2435 2435)
-Process: 3 expected time = 11.889595
-Process: 3 registered... (2772 19 2435 2435)
-Process: 3 I/O blocked... (2772 19 2454 2454)
-Process: 3 expected time = 15.4447975
-Process: 3 registered... (2772 12 2454 2454)
-Process: 3 I/O blocked... (2772 12 2466 2466)
-Process: 3 expected time = 13.722399
-Process: 3 registered... (2772 14 2466 2466)
-Process: 3 I/O blocked... (2772 14 2480 2480)
-Process: 3 expected time = 13.861199
-Process: 3 registered... (2772 16 2480 2480)
-Process: 3 I/O blocked... (2772 16 2496 2496)
-Process: 3 expected time = 14.930599
-Process: 3 registered... (2772 15 2496 2496)
-Process: 3 I/O blocked... (2772 15 2511 2511)
-Process: 3 expected time = 14.9653
-Process: 3 registered... (2772 18 2511 2511)
-Process: 3 I/O blocked... (2772 18 2529 2529)
-Process: 3 expected time = 16.48265
-Process: 3 registered... (2772 12 2529 2529)
-Process: 3 I/O blocked... (2772 12 2541 2541)
-Process: 3 expected time = 14.241325
-Process: 3 registered... (2772 17 2541 2541)
-Process: 3 I/O blocked... (2772 17 2558 2558)
-Process: 3 expected time = 15.620663
-Process: 3 registered... (2772 17 2558 2558)
-Process: 3 I/O blocked... (2772 17 2575 2575)
-Process: 3 expected time = 16.310331
-Process: 3 registered... (2772 10 2575 2575)
-Process: 3 I/O blocked... (2772 10 2585 2585)
-Process: 3 expected time = 13.155166
-Process: 3 registered... (2772 17 2585 2585)
-Process: 3 I/O blocked... (2772 17 2602 2602)
-Process: 3 expected time = 15.077583
-Process: 3 registered... (2772 14 2602 2602)
-Process: 3 I/O blocked... (2772 14 2616 2616)
-Process: 3 expected time = 14.538792
-Process: 3 registered... (2772 16 2616 2616)
-Process: 3 I/O blocked... (2772 16 2632 2632)
-Process: 3 expected time = 15.269396
-Process: 3 registered... (2772 10 2632 2632)
-Process: 3 I/O blocked... (2772 10 2642 2642)
-Process: 3 expected time = 12.634698
-Process: 3 registered... (2772 19 2642 2642)
-Process: 3 I/O blocked... (2772 19 2661 2661)
-Process: 3 expected time = 15.8173485
-Process: 3 registered... (2772 14 2661 2661)
-Process: 3 I/O blocked... (2772 14 2675 2675)
-Process: 3 expected time = 14.908674
-Process: 3 registered... (2772 15 2675 2675)
-Process: 3 I/O blocked... (2772 15 2690 2690)
-Process: 3 expected time = 14.954337
-Process: 3 registered... (2772 15 2690 2690)
-Process: 3 I/O blocked... (2772 15 2705 2705)
-Process: 3 expected time = 14.977169
-Process: 3 registered... (2772 17 2705 2705)
-Process: 3 I/O blocked... (2772 17 2722 2722)
-Process: 3 expected time = 15.9885845
-Process: 3 registered... (2772 15 2722 2722)
-Process: 3 I/O blocked... (2772 15 2737 2737)
-Process: 3 expected time = 15.494292
-Process: 3 registered... (2772 18 2737 2737)
-Process: 3 I/O blocked... (2772 18 2755 2755)
-Process: 3 expected time = 16.747147
-Process: 3 registered... (2772 15 2755 2755)
-Process: 3 I/O blocked... (2772 15 2770 2770)
-Process: 3 expected time = 15.873573
-Process: 3 registered... (2772 18 2770 2770)
-Process: 3 completed... (2772 18 2772 2772)
+Process: 0 registered... (1940 880 0 0)
+Process: 0 I/O blocked... (1940 880 880 880)
+Process: 0 expected time = 880.0
+Process: 3 registered... (3138 13 0 0)
+Process: 3 I/O blocked... (3138 13 13 13)
+Process: 3 expected time = 13.0
+Process: 2 registered... (2843 77 0 0)
+Process: 2 I/O blocked... (2843 77 77 77)
+Process: 2 expected time = 77.0
+Process: 1 registered... (2675 270 0 0)
+Process: 1 I/O blocked... (2675 270 270 270)
+Process: 1 expected time = 270.0
+Process: 3 registered... (3138 11 13 13)
+Process: 3 I/O blocked... (3138 11 24 24)
+Process: 3 expected time = 12.0
+Process: 2 registered... (2843 84 77 77)
+Process: 2 I/O blocked... (2843 84 161 161)
+Process: 2 expected time = 80.5
+Process: 3 registered... (3138 9 24 24)
+Process: 3 I/O blocked... (3138 9 33 33)
+Process: 3 expected time = 10.5
+Process: 2 registered... (2843 91 161 161)
+Process: 2 I/O blocked... (2843 91 252 252)
+Process: 2 expected time = 85.75
+Process: 3 registered... (3138 7 33 33)
+Process: 3 I/O blocked... (3138 7 40 40)
+Process: 3 expected time = 8.75
+Process: 2 registered... (2843 98 252 252)
+Process: 2 I/O blocked... (2843 98 350 350)
+Process: 2 expected time = 91.875
+Process: 3 registered... (3138 8 40 40)
+Process: 3 I/O blocked... (3138 8 48 48)
+Process: 3 expected time = 8.375
+Process: 2 registered... (2843 105 350 350)
+Process: 2 I/O blocked... (2843 105 455 455)
+Process: 2 expected time = 98.4375
+Process: 3 registered... (3138 9 48 48)
+Process: 3 I/O blocked... (3138 9 57 57)
+Process: 3 expected time = 8.6875
+Process: 2 registered... (2843 112 455 455)
+Process: 2 I/O blocked... (2843 112 567 567)
+Process: 2 expected time = 105.21875
+Process: 3 registered... (3138 10 57 57)
+Process: 3 I/O blocked... (3138 10 67 67)
+Process: 3 expected time = 9.34375
+Process: 2 registered... (2843 105 567 567)
+Process: 2 I/O blocked... (2843 105 672 672)
+Process: 2 expected time = 105.109375
+Process: 3 registered... (3138 11 67 67)
+Process: 3 I/O blocked... (3138 11 78 78)
+Process: 3 expected time = 10.171875
+Process: 2 registered... (2843 98 672 672)
+Process: 2 I/O blocked... (2843 98 770 770)
+Process: 2 expected time = 101.55469
+Process: 3 registered... (3138 12 78 78)
+Process: 3 I/O blocked... (3138 12 90 90)
+Process: 3 expected time = 11.0859375
+Process: 2 registered... (2843 91 770 770)
+Process: 2 I/O blocked... (2843 91 861 861)
+Process: 2 expected time = 96.27734
+Process: 3 registered... (3138 13 90 90)
+Process: 3 I/O blocked... (3138 13 103 103)
+Process: 3 expected time = 12.042969
+Process: 2 registered... (2843 84 861 861)
+Process: 2 I/O blocked... (2843 84 945 945)
+Process: 2 expected time = 90.13867
+Process: 3 registered... (3138 14 103 103)
+Process: 3 I/O blocked... (3138 14 117 117)
+Process: 3 expected time = 13.021484
+Process: 2 registered... (2843 77 945 945)
+Process: 2 I/O blocked... (2843 77 1022 1022)
+Process: 2 expected time = 83.569336
+Process: 3 registered... (3138 15 117 117)
+Process: 3 I/O blocked... (3138 15 132 132)
+Process: 3 expected time = 14.010742
+Process: 2 registered... (2843 70 1022 1022)
+Process: 2 I/O blocked... (2843 70 1092 1092)
+Process: 2 expected time = 76.78467
+Process: 3 registered... (3138 16 132 132)
+Process: 3 I/O blocked... (3138 16 148 148)
+Process: 3 expected time = 15.005371
+Process: 2 registered... (2843 63 1092 1092)
+Process: 2 I/O blocked... (2843 63 1155 1155)
+Process: 2 expected time = 69.892334
+Process: 3 registered... (3138 17 148 148)
+Process: 3 I/O blocked... (3138 17 165 165)
+Process: 3 expected time = 16.002686
+Process: 2 registered... (2843 56 1155 1155)
+Process: 2 I/O blocked... (2843 56 1211 1211)
+Process: 2 expected time = 62.946167
+Process: 3 registered... (3138 18 165 165)
+Process: 3 I/O blocked... (3138 18 183 183)
+Process: 3 expected time = 17.001343
+Process: 2 registered... (2843 49 1211 1211)
+Process: 2 I/O blocked... (2843 49 1260 1260)
+Process: 2 expected time = 55.973083
+Process: 3 registered... (3138 19 183 183)
+Process: 3 I/O blocked... (3138 19 202 202)
+Process: 3 expected time = 18.000671
+Process: 2 registered... (2843 42 1260 1260)
+Process: 2 I/O blocked... (2843 42 1302 1302)
+Process: 2 expected time = 48.98654
+Process: 3 registered... (3138 20 202 202)
+Process: 3 I/O blocked... (3138 20 222 222)
+Process: 3 expected time = 19.000336
+Process: 2 registered... (2843 35 1302 1302)
+Process: 2 I/O blocked... (2843 35 1337 1337)
+Process: 2 expected time = 41.99327
+Process: 3 registered... (3138 21 222 222)
+Process: 3 I/O blocked... (3138 21 243 243)
+Process: 3 expected time = 20.000168
+Process: 2 registered... (2843 28 1337 1337)
+Process: 2 I/O blocked... (2843 28 1365 1365)
+Process: 2 expected time = 34.996635
+Process: 3 registered... (3138 22 243 243)
+Process: 3 I/O blocked... (3138 22 265 265)
+Process: 3 expected time = 21.000084
+Process: 2 registered... (2843 35 1365 1365)
+Process: 2 I/O blocked... (2843 35 1400 1400)
+Process: 2 expected time = 34.998318
+Process: 3 registered... (3138 23 265 265)
+Process: 3 I/O blocked... (3138 23 288 288)
+Process: 3 expected time = 22.000042
+Process: 2 registered... (2843 42 1400 1400)
+Process: 2 I/O blocked... (2843 42 1442 1442)
+Process: 2 expected time = 38.49916
+Process: 3 registered... (3138 21 288 288)
+Process: 3 I/O blocked... (3138 21 309 309)
+Process: 3 expected time = 21.500021
+Process: 2 registered... (2843 49 1442 1442)
+Process: 2 I/O blocked... (2843 49 1491 1491)
+Process: 2 expected time = 43.74958
+Process: 3 registered... (3138 19 309 309)
+Process: 3 I/O blocked... (3138 19 328 328)
+Process: 3 expected time = 20.250011
+Process: 2 registered... (2843 56 1491 1491)
+Process: 2 I/O blocked... (2843 56 1547 1547)
+Process: 2 expected time = 49.87479
+Process: 3 registered... (3138 17 328 328)
+Process: 3 I/O blocked... (3138 17 345 345)
+Process: 3 expected time = 18.625006
+Process: 2 registered... (2843 63 1547 1547)
+Process: 2 I/O blocked... (2843 63 1610 1610)
+Process: 2 expected time = 56.437393
+Process: 3 registered... (3138 15 345 345)
+Process: 3 I/O blocked... (3138 15 360 360)
+Process: 3 expected time = 16.812504
+Process: 2 registered... (2843 70 1610 1610)
+Process: 2 I/O blocked... (2843 70 1680 1680)
+Process: 2 expected time = 63.218697
+Process: 3 registered... (3138 13 360 360)
+Process: 3 I/O blocked... (3138 13 373 373)
+Process: 3 expected time = 14.906252
+Process: 2 registered... (2843 77 1680 1680)
+Process: 2 I/O blocked... (2843 77 1757 1757)
+Process: 2 expected time = 70.109344
+Process: 3 registered... (3138 11 373 373)
+Process: 3 I/O blocked... (3138 11 384 384)
+Process: 3 expected time = 12.953126
+Process: 2 registered... (2843 84 1757 1757)
+Process: 2 I/O blocked... (2843 84 1841 1841)
+Process: 2 expected time = 77.05467
+Process: 3 registered... (3138 9 384 384)
+Process: 3 I/O blocked... (3138 9 393 393)
+Process: 3 expected time = 10.9765625
+Process: 2 registered... (2843 91 1841 1841)
+Process: 2 I/O blocked... (2843 91 1932 1932)
+Process: 2 expected time = 84.027336
+Process: 3 registered... (3138 7 393 393)
+Process: 3 I/O blocked... (3138 7 400 400)
+Process: 3 expected time = 8.988281
+Process: 2 registered... (2843 98 1932 1932)
+Process: 2 I/O blocked... (2843 98 2030 2030)
+Process: 2 expected time = 91.01367
+Process: 3 registered... (3138 8 400 400)
+Process: 3 I/O blocked... (3138 8 408 408)
+Process: 3 expected time = 8.494141
+Process: 2 registered... (2843 105 2030 2030)
+Process: 2 I/O blocked... (2843 105 2135 2135)
+Process: 2 expected time = 98.006836
+Process: 3 registered... (3138 9 408 408)
+Process: 3 I/O blocked... (3138 9 417 417)
+Process: 3 expected time = 8.74707
+Process: 2 registered... (2843 112 2135 2135)
+Process: 2 I/O blocked... (2843 112 2247 2247)
+Process: 2 expected time = 105.00342
+Process: 3 registered... (3138 10 417 417)
+Process: 3 I/O blocked... (3138 10 427 427)
+Process: 3 expected time = 9.373535
+Process: 2 registered... (2843 105 2247 2247)
+Process: 2 I/O blocked... (2843 105 2352 2352)
+Process: 2 expected time = 105.00171
+Process: 3 registered... (3138 11 427 427)
+Process: 3 I/O blocked... (3138 11 438 438)
+Process: 3 expected time = 10.186768
+Process: 2 registered... (2843 98 2352 2352)
+Process: 2 I/O blocked... (2843 98 2450 2450)
+Process: 2 expected time = 101.500854
+Process: 3 registered... (3138 12 438 438)
+Process: 3 I/O blocked... (3138 12 450 450)
+Process: 3 expected time = 11.093384
+Process: 2 registered... (2843 91 2450 2450)
+Process: 2 I/O blocked... (2843 91 2541 2541)
+Process: 2 expected time = 96.25043
+Process: 3 registered... (3138 13 450 450)
+Process: 3 I/O blocked... (3138 13 463 463)
+Process: 3 expected time = 12.046692
+Process: 2 registered... (2843 84 2541 2541)
+Process: 2 I/O blocked... (2843 84 2625 2625)
+Process: 2 expected time = 90.12521
+Process: 3 registered... (3138 14 463 463)
+Process: 3 I/O blocked... (3138 14 477 477)
+Process: 3 expected time = 13.023346
+Process: 2 registered... (2843 77 2625 2625)
+Process: 2 I/O blocked... (2843 77 2702 2702)
+Process: 2 expected time = 83.56261
+Process: 3 registered... (3138 15 477 477)
+Process: 3 I/O blocked... (3138 15 492 492)
+Process: 3 expected time = 14.011673
+Process: 2 registered... (2843 70 2702 2702)
+Process: 2 I/O blocked... (2843 70 2772 2772)
+Process: 2 expected time = 76.7813
+Process: 3 registered... (3138 16 492 492)
+Process: 3 I/O blocked... (3138 16 508 508)
+Process: 3 expected time = 15.0058365
+Process: 2 registered... (2843 63 2772 2772)
+Process: 2 I/O blocked... (2843 63 2835 2835)
+Process: 2 expected time = 69.890656
+Process: 3 registered... (3138 17 508 508)
+Process: 3 I/O blocked... (3138 17 525 525)
+Process: 3 expected time = 16.002918
+Process: 2 registered... (2843 56 2835 2835)
+Process: 2 completed... (2843 56 2843 2843)
+Process: 3 registered... (3138 18 525 525)
+Process: 3 I/O blocked... (3138 18 543 543)
+Process: 3 expected time = 17.00146
+Process: 1 registered... (2675 240 270 270)
+Process: 1 I/O blocked... (2675 240 510 510)
+Process: 1 expected time = 255.0
+Process: 3 registered... (3138 19 543 543)
+Process: 3 I/O blocked... (3138 19 562 562)
+Process: 3 expected time = 18.000729
+Process: 1 registered... (2675 210 510 510)
+Process: 1 I/O blocked... (2675 210 720 720)
+Process: 1 expected time = 232.5
+Process: 3 registered... (3138 20 562 562)
+Process: 3 I/O blocked... (3138 20 582 582)
+Process: 3 expected time = 19.000364
+Process: 1 registered... (2675 180 720 720)
+Process: 1 I/O blocked... (2675 180 900 900)
+Process: 1 expected time = 206.25
+Process: 3 registered... (3138 21 582 582)
+Process: 3 I/O blocked... (3138 21 603 603)
+Process: 3 expected time = 20.000183
+Process: 1 registered... (2675 150 900 900)
+Process: 1 I/O blocked... (2675 150 1050 1050)
+Process: 1 expected time = 178.125
+Process: 3 registered... (3138 22 603 603)
+Process: 3 I/O blocked... (3138 22 625 625)
+Process: 3 expected time = 21.000092
+Process: 1 registered... (2675 120 1050 1050)
+Process: 1 I/O blocked... (2675 120 1170 1170)
+Process: 1 expected time = 149.0625
+Process: 3 registered... (3138 23 625 625)
+Process: 3 I/O blocked... (3138 23 648 648)
+Process: 3 expected time = 22.000046
+Process: 1 registered... (2675 150 1170 1170)
+Process: 1 I/O blocked... (2675 150 1320 1320)
+Process: 1 expected time = 149.53125
+Process: 3 registered... (3138 21 648 648)
+Process: 3 I/O blocked... (3138 21 669 669)
+Process: 3 expected time = 21.500023
+Process: 1 registered... (2675 180 1320 1320)
+Process: 1 I/O blocked... (2675 180 1500 1500)
+Process: 1 expected time = 164.76562
+Process: 3 registered... (3138 19 669 669)
+Process: 3 I/O blocked... (3138 19 688 688)
+Process: 3 expected time = 20.250011
+Process: 1 registered... (2675 210 1500 1500)
+Process: 1 I/O blocked... (2675 210 1710 1710)
+Process: 1 expected time = 187.38281
+Process: 3 registered... (3138 17 688 688)
+Process: 3 I/O blocked... (3138 17 705 705)
+Process: 3 expected time = 18.625006
+Process: 1 registered... (2675 240 1710 1710)
+Process: 1 I/O blocked... (2675 240 1950 1950)
+Process: 1 expected time = 213.6914
+Process: 3 registered... (3138 15 705 705)
+Process: 3 I/O blocked... (3138 15 720 720)
+Process: 3 expected time = 16.812504
+Process: 1 registered... (2675 270 1950 1950)
+Process: 1 I/O blocked... (2675 270 2220 2220)
+Process: 1 expected time = 241.8457
+Process: 3 registered... (3138 13 720 720)
+Process: 3 I/O blocked... (3138 13 733 733)
+Process: 3 expected time = 14.906252
+Process: 1 registered... (2675 300 2220 2220)
+Process: 1 I/O blocked... (2675 300 2520 2520)
+Process: 1 expected time = 270.92285
+Process: 3 registered... (3138 11 733 733)
+Process: 3 I/O blocked... (3138 11 744 744)
+Process: 3 expected time = 12.953126
+Process: 1 registered... (2675 330 2520 2520)
+Process: 1 completed... (2675 330 2675 2675)
+Process: 3 registered... (3138 9 744 744)
+Process: 3 I/O blocked... (3138 9 753 753)
+Process: 3 expected time = 10.9765625
+Process: 0 registered... (1940 960 880 880)
+Process: 0 I/O blocked... (1940 960 1840 1840)
+Process: 0 expected time = 920.0
+Process: 3 registered... (3138 7 753 753)
+Process: 3 I/O blocked... (3138 7 760 760)
+Process: 3 expected time = 8.988281
+Process: 0 registered... (1940 1040 1840 1840)
+Process: 0 completed... (1940 1040 1940 1940)
+Process: 3 registered... (3138 8 760 760)
+Process: 3 I/O blocked... (3138 8 768 768)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 768 768)
+Process: 3 I/O blocked... (3138 9 777 777)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 777 777)
+Process: 3 I/O blocked... (3138 10 787 787)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 787 787)
+Process: 3 I/O blocked... (3138 11 798 798)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 798 798)
+Process: 3 I/O blocked... (3138 12 810 810)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 810 810)
+Process: 3 I/O blocked... (3138 13 823 823)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 823 823)
+Process: 3 I/O blocked... (3138 14 837 837)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 837 837)
+Process: 3 I/O blocked... (3138 15 852 852)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 852 852)
+Process: 3 I/O blocked... (3138 16 868 868)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 868 868)
+Process: 3 I/O blocked... (3138 17 885 885)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 885 885)
+Process: 3 I/O blocked... (3138 18 903 903)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 903 903)
+Process: 3 I/O blocked... (3138 19 922 922)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 922 922)
+Process: 3 I/O blocked... (3138 20 942 942)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 942 942)
+Process: 3 I/O blocked... (3138 21 963 963)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 963 963)
+Process: 3 I/O blocked... (3138 22 985 985)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 985 985)
+Process: 3 I/O blocked... (3138 23 1008 1008)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 1008 1008)
+Process: 3 I/O blocked... (3138 21 1029 1029)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 1029 1029)
+Process: 3 I/O blocked... (3138 19 1048 1048)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 1048 1048)
+Process: 3 I/O blocked... (3138 17 1065 1065)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 1065 1065)
+Process: 3 I/O blocked... (3138 15 1080 1080)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 1080 1080)
+Process: 3 I/O blocked... (3138 13 1093 1093)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 1093 1093)
+Process: 3 I/O blocked... (3138 11 1104 1104)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 1104 1104)
+Process: 3 I/O blocked... (3138 9 1113 1113)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 1113 1113)
+Process: 3 I/O blocked... (3138 7 1120 1120)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 1120 1120)
+Process: 3 I/O blocked... (3138 8 1128 1128)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 1128 1128)
+Process: 3 I/O blocked... (3138 9 1137 1137)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 1137 1137)
+Process: 3 I/O blocked... (3138 10 1147 1147)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 1147 1147)
+Process: 3 I/O blocked... (3138 11 1158 1158)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 1158 1158)
+Process: 3 I/O blocked... (3138 12 1170 1170)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 1170 1170)
+Process: 3 I/O blocked... (3138 13 1183 1183)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 1183 1183)
+Process: 3 I/O blocked... (3138 14 1197 1197)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 1197 1197)
+Process: 3 I/O blocked... (3138 15 1212 1212)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 1212 1212)
+Process: 3 I/O blocked... (3138 16 1228 1228)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 1228 1228)
+Process: 3 I/O blocked... (3138 17 1245 1245)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 1245 1245)
+Process: 3 I/O blocked... (3138 18 1263 1263)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 1263 1263)
+Process: 3 I/O blocked... (3138 19 1282 1282)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 1282 1282)
+Process: 3 I/O blocked... (3138 20 1302 1302)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 1302 1302)
+Process: 3 I/O blocked... (3138 21 1323 1323)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 1323 1323)
+Process: 3 I/O blocked... (3138 22 1345 1345)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 1345 1345)
+Process: 3 I/O blocked... (3138 23 1368 1368)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 1368 1368)
+Process: 3 I/O blocked... (3138 21 1389 1389)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 1389 1389)
+Process: 3 I/O blocked... (3138 19 1408 1408)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 1408 1408)
+Process: 3 I/O blocked... (3138 17 1425 1425)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 1425 1425)
+Process: 3 I/O blocked... (3138 15 1440 1440)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 1440 1440)
+Process: 3 I/O blocked... (3138 13 1453 1453)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 1453 1453)
+Process: 3 I/O blocked... (3138 11 1464 1464)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 1464 1464)
+Process: 3 I/O blocked... (3138 9 1473 1473)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 1473 1473)
+Process: 3 I/O blocked... (3138 7 1480 1480)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 1480 1480)
+Process: 3 I/O blocked... (3138 8 1488 1488)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 1488 1488)
+Process: 3 I/O blocked... (3138 9 1497 1497)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 1497 1497)
+Process: 3 I/O blocked... (3138 10 1507 1507)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 1507 1507)
+Process: 3 I/O blocked... (3138 11 1518 1518)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 1518 1518)
+Process: 3 I/O blocked... (3138 12 1530 1530)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 1530 1530)
+Process: 3 I/O blocked... (3138 13 1543 1543)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 1543 1543)
+Process: 3 I/O blocked... (3138 14 1557 1557)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 1557 1557)
+Process: 3 I/O blocked... (3138 15 1572 1572)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 1572 1572)
+Process: 3 I/O blocked... (3138 16 1588 1588)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 1588 1588)
+Process: 3 I/O blocked... (3138 17 1605 1605)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 1605 1605)
+Process: 3 I/O blocked... (3138 18 1623 1623)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 1623 1623)
+Process: 3 I/O blocked... (3138 19 1642 1642)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 1642 1642)
+Process: 3 I/O blocked... (3138 20 1662 1662)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 1662 1662)
+Process: 3 I/O blocked... (3138 21 1683 1683)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 1683 1683)
+Process: 3 I/O blocked... (3138 22 1705 1705)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 1705 1705)
+Process: 3 I/O blocked... (3138 23 1728 1728)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 1728 1728)
+Process: 3 I/O blocked... (3138 21 1749 1749)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 1749 1749)
+Process: 3 I/O blocked... (3138 19 1768 1768)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 1768 1768)
+Process: 3 I/O blocked... (3138 17 1785 1785)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 1785 1785)
+Process: 3 I/O blocked... (3138 15 1800 1800)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 1800 1800)
+Process: 3 I/O blocked... (3138 13 1813 1813)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 1813 1813)
+Process: 3 I/O blocked... (3138 11 1824 1824)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 1824 1824)
+Process: 3 I/O blocked... (3138 9 1833 1833)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 1833 1833)
+Process: 3 I/O blocked... (3138 7 1840 1840)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 1840 1840)
+Process: 3 I/O blocked... (3138 8 1848 1848)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 1848 1848)
+Process: 3 I/O blocked... (3138 9 1857 1857)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 1857 1857)
+Process: 3 I/O blocked... (3138 10 1867 1867)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 1867 1867)
+Process: 3 I/O blocked... (3138 11 1878 1878)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 1878 1878)
+Process: 3 I/O blocked... (3138 12 1890 1890)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 1890 1890)
+Process: 3 I/O blocked... (3138 13 1903 1903)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 1903 1903)
+Process: 3 I/O blocked... (3138 14 1917 1917)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 1917 1917)
+Process: 3 I/O blocked... (3138 15 1932 1932)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 1932 1932)
+Process: 3 I/O blocked... (3138 16 1948 1948)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 1948 1948)
+Process: 3 I/O blocked... (3138 17 1965 1965)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 1965 1965)
+Process: 3 I/O blocked... (3138 18 1983 1983)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 1983 1983)
+Process: 3 I/O blocked... (3138 19 2002 2002)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 2002 2002)
+Process: 3 I/O blocked... (3138 20 2022 2022)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 2022 2022)
+Process: 3 I/O blocked... (3138 21 2043 2043)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 2043 2043)
+Process: 3 I/O blocked... (3138 22 2065 2065)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 2065 2065)
+Process: 3 I/O blocked... (3138 23 2088 2088)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 2088 2088)
+Process: 3 I/O blocked... (3138 21 2109 2109)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 2109 2109)
+Process: 3 I/O blocked... (3138 19 2128 2128)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 2128 2128)
+Process: 3 I/O blocked... (3138 17 2145 2145)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 2145 2145)
+Process: 3 I/O blocked... (3138 15 2160 2160)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 2160 2160)
+Process: 3 I/O blocked... (3138 13 2173 2173)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 2173 2173)
+Process: 3 I/O blocked... (3138 11 2184 2184)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 2184 2184)
+Process: 3 I/O blocked... (3138 9 2193 2193)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 2193 2193)
+Process: 3 I/O blocked... (3138 7 2200 2200)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 2200 2200)
+Process: 3 I/O blocked... (3138 8 2208 2208)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 2208 2208)
+Process: 3 I/O blocked... (3138 9 2217 2217)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 2217 2217)
+Process: 3 I/O blocked... (3138 10 2227 2227)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 2227 2227)
+Process: 3 I/O blocked... (3138 11 2238 2238)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 2238 2238)
+Process: 3 I/O blocked... (3138 12 2250 2250)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 2250 2250)
+Process: 3 I/O blocked... (3138 13 2263 2263)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 2263 2263)
+Process: 3 I/O blocked... (3138 14 2277 2277)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 2277 2277)
+Process: 3 I/O blocked... (3138 15 2292 2292)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 2292 2292)
+Process: 3 I/O blocked... (3138 16 2308 2308)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 2308 2308)
+Process: 3 I/O blocked... (3138 17 2325 2325)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 2325 2325)
+Process: 3 I/O blocked... (3138 18 2343 2343)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 2343 2343)
+Process: 3 I/O blocked... (3138 19 2362 2362)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 2362 2362)
+Process: 3 I/O blocked... (3138 20 2382 2382)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 2382 2382)
+Process: 3 I/O blocked... (3138 21 2403 2403)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 2403 2403)
+Process: 3 I/O blocked... (3138 22 2425 2425)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 2425 2425)
+Process: 3 I/O blocked... (3138 23 2448 2448)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 2448 2448)
+Process: 3 I/O blocked... (3138 21 2469 2469)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 2469 2469)
+Process: 3 I/O blocked... (3138 19 2488 2488)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 2488 2488)
+Process: 3 I/O blocked... (3138 17 2505 2505)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 2505 2505)
+Process: 3 I/O blocked... (3138 15 2520 2520)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 2520 2520)
+Process: 3 I/O blocked... (3138 13 2533 2533)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 2533 2533)
+Process: 3 I/O blocked... (3138 11 2544 2544)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 2544 2544)
+Process: 3 I/O blocked... (3138 9 2553 2553)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 2553 2553)
+Process: 3 I/O blocked... (3138 7 2560 2560)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 2560 2560)
+Process: 3 I/O blocked... (3138 8 2568 2568)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 2568 2568)
+Process: 3 I/O blocked... (3138 9 2577 2577)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 2577 2577)
+Process: 3 I/O blocked... (3138 10 2587 2587)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 2587 2587)
+Process: 3 I/O blocked... (3138 11 2598 2598)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 2598 2598)
+Process: 3 I/O blocked... (3138 12 2610 2610)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 2610 2610)
+Process: 3 I/O blocked... (3138 13 2623 2623)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 2623 2623)
+Process: 3 I/O blocked... (3138 14 2637 2637)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 2637 2637)
+Process: 3 I/O blocked... (3138 15 2652 2652)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 2652 2652)
+Process: 3 I/O blocked... (3138 16 2668 2668)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 2668 2668)
+Process: 3 I/O blocked... (3138 17 2685 2685)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 2685 2685)
+Process: 3 I/O blocked... (3138 18 2703 2703)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 2703 2703)
+Process: 3 I/O blocked... (3138 19 2722 2722)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 2722 2722)
+Process: 3 I/O blocked... (3138 20 2742 2742)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 2742 2742)
+Process: 3 I/O blocked... (3138 21 2763 2763)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 2763 2763)
+Process: 3 I/O blocked... (3138 22 2785 2785)
+Process: 3 expected time = 21.000092
+Process: 3 registered... (3138 23 2785 2785)
+Process: 3 I/O blocked... (3138 23 2808 2808)
+Process: 3 expected time = 22.000046
+Process: 3 registered... (3138 21 2808 2808)
+Process: 3 I/O blocked... (3138 21 2829 2829)
+Process: 3 expected time = 21.500023
+Process: 3 registered... (3138 19 2829 2829)
+Process: 3 I/O blocked... (3138 19 2848 2848)
+Process: 3 expected time = 20.250011
+Process: 3 registered... (3138 17 2848 2848)
+Process: 3 I/O blocked... (3138 17 2865 2865)
+Process: 3 expected time = 18.625006
+Process: 3 registered... (3138 15 2865 2865)
+Process: 3 I/O blocked... (3138 15 2880 2880)
+Process: 3 expected time = 16.812504
+Process: 3 registered... (3138 13 2880 2880)
+Process: 3 I/O blocked... (3138 13 2893 2893)
+Process: 3 expected time = 14.906252
+Process: 3 registered... (3138 11 2893 2893)
+Process: 3 I/O blocked... (3138 11 2904 2904)
+Process: 3 expected time = 12.953126
+Process: 3 registered... (3138 9 2904 2904)
+Process: 3 I/O blocked... (3138 9 2913 2913)
+Process: 3 expected time = 10.9765625
+Process: 3 registered... (3138 7 2913 2913)
+Process: 3 I/O blocked... (3138 7 2920 2920)
+Process: 3 expected time = 8.988281
+Process: 3 registered... (3138 8 2920 2920)
+Process: 3 I/O blocked... (3138 8 2928 2928)
+Process: 3 expected time = 8.494141
+Process: 3 registered... (3138 9 2928 2928)
+Process: 3 I/O blocked... (3138 9 2937 2937)
+Process: 3 expected time = 8.74707
+Process: 3 registered... (3138 10 2937 2937)
+Process: 3 I/O blocked... (3138 10 2947 2947)
+Process: 3 expected time = 9.373535
+Process: 3 registered... (3138 11 2947 2947)
+Process: 3 I/O blocked... (3138 11 2958 2958)
+Process: 3 expected time = 10.186768
+Process: 3 registered... (3138 12 2958 2958)
+Process: 3 I/O blocked... (3138 12 2970 2970)
+Process: 3 expected time = 11.093384
+Process: 3 registered... (3138 13 2970 2970)
+Process: 3 I/O blocked... (3138 13 2983 2983)
+Process: 3 expected time = 12.046692
+Process: 3 registered... (3138 14 2983 2983)
+Process: 3 I/O blocked... (3138 14 2997 2997)
+Process: 3 expected time = 13.023346
+Process: 3 registered... (3138 15 2997 2997)
+Process: 3 I/O blocked... (3138 15 3012 3012)
+Process: 3 expected time = 14.011673
+Process: 3 registered... (3138 16 3012 3012)
+Process: 3 I/O blocked... (3138 16 3028 3028)
+Process: 3 expected time = 15.0058365
+Process: 3 registered... (3138 17 3028 3028)
+Process: 3 I/O blocked... (3138 17 3045 3045)
+Process: 3 expected time = 16.002918
+Process: 3 registered... (3138 18 3045 3045)
+Process: 3 I/O blocked... (3138 18 3063 3063)
+Process: 3 expected time = 17.00146
+Process: 3 registered... (3138 19 3063 3063)
+Process: 3 I/O blocked... (3138 19 3082 3082)
+Process: 3 expected time = 18.000729
+Process: 3 registered... (3138 20 3082 3082)
+Process: 3 I/O blocked... (3138 20 3102 3102)
+Process: 3 expected time = 19.000364
+Process: 3 registered... (3138 21 3102 3102)
+Process: 3 I/O blocked... (3138 21 3123 3123)
+Process: 3 expected time = 20.000183
+Process: 3 registered... (3138 22 3123 3123)
+Process: 3 completed... (3138 22 3138 3138)

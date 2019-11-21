@@ -16,6 +16,7 @@ public class Scheduling {
   private static int meanDev = 1000;
   private static int standardDev = 100;
   private static int runtime = 1000;
+  private static float coefficient = 0;
   private static Vector processVector = new Vector();
   private static Results result = new Results("null","null",0);
   private static String resultsFile = "Summary-Results";
@@ -25,8 +26,8 @@ public class Scheduling {
     String line;
     String tmp;
     int cputime = 0;
-    int ioblocking = 0;
-    int iorandom = 0;
+    int ioBlockingInitial = 0;
+    boolean up = true;
     double X = 0.0;
 
     try {   
@@ -51,21 +52,26 @@ public class Scheduling {
         if (line.startsWith("process")) {
           StringTokenizer st = new StringTokenizer(line);
           st.nextToken();
-          ioblocking = Common.s2i(st.nextToken());
-          iorandom = Common.s2i(st.nextToken());
+          ioBlockingInitial = Common.s2i(st.nextToken());
+          up = Common.s2b(st.nextToken());
           X = Common.R1();
           while (X == -1.0) {
             X = Common.R1();
           }
           X = X * standardDev;
           cputime = (int) X + meanDev;
-          processVector.addElement(new sProcess(cputime, ioblocking, iorandom, 0, 0, 0));          
+          processVector.addElement(new sProcess(cputime, ioBlockingInitial, up, 0, 0, 0));          
         }
         if (line.startsWith("runtime")) {
           StringTokenizer st = new StringTokenizer(line);
           st.nextToken();
           runtime = Common.s2i(st.nextToken());
         }
+        if (line.startsWith("coefficient")) {
+            StringTokenizer st = new StringTokenizer(line);
+            st.nextToken();
+            coefficient = Common.s2f(st.nextToken());
+          }
       }
       in.close();
     } catch (IOException e) { /* Handle exceptions */ }
@@ -80,7 +86,7 @@ public class Scheduling {
     int size = processVector.size();
     for (i = 0; i < size; i++) {
       sProcess process = (sProcess) processVector.elementAt(i);
-      System.out.println("process " + i + " " + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.numblocked);
+      System.out.println("process " + i + " " + process.cputime + " " + process.ioBlockingInitial + " " + process.cpudone + " " + process.numblocked);
     }
     System.out.println("runtime " + runtime);
   }
@@ -112,11 +118,11 @@ public class Scheduling {
           }
           X = X * standardDev;
         int cputime = (int) X + meanDev;
-        processVector.addElement(new sProcess(cputime,i*100,i*30,0,0,0));          
+        processVector.addElement(new sProcess(cputime,i*100,true,0,0,0));          
         i++;
       }
     }
-    result = SchedulingAlgorithm.Run(runtime, processVector, result);    
+    result = SchedulingAlgorithm.Run(runtime, processVector, result, coefficient);    
     try {
       //BufferedWriter out = new BufferedWriter(new FileWriter(resultsFile));
       PrintStream out = new PrintStream(new FileOutputStream(resultsFile));
@@ -132,8 +138,8 @@ public class Scheduling {
         if (i < 100) { out.print("\t\t"); } else { out.print("\t"); }
         out.print(Integer.toString(process.cputime));
         if (process.cputime < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
-        out.print(Integer.toString(process.ioblocking));
-        if (process.ioblocking < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
+        out.print(Integer.toString(process.ioBlockingInitial));
+        if (process.ioBlockingInitial < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
         out.print(Integer.toString(process.cpudone));
         if (process.cpudone < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
         out.println(process.numblocked + " times");

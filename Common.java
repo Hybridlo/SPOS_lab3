@@ -11,6 +11,28 @@ public class Common {
     }
     return i;
   }
+  
+  static public float s2f (String s) {
+    float i = 0;
+
+    try {
+      i = Float.parseFloat(s.trim());
+    } catch (NumberFormatException nfe) {
+      System.out.println("NumberFormatException: " + nfe.getMessage());
+    }
+    return i;
+  }
+  
+  static public boolean s2b (String s) {
+    boolean i = true;
+
+    try {
+      i = Boolean.parseBoolean(s.trim());
+    } catch (NumberFormatException nfe) {
+      System.out.println("NumberFormatException: " + nfe.getMessage());
+    }
+    return i;
+  }
 
   static public double R1 () {
     double U = generator.nextDouble();
