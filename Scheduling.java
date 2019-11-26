@@ -26,7 +26,8 @@ public class Scheduling {
     String line;
     String tmp;
     int cputime = 0;
-    int ioBlockingInitial = 0;
+    int ioBlockingDelayInitial = 0;
+    int ioBlockingTime = 0;
     boolean up = true;
     double X = 0.0;
 
@@ -52,7 +53,8 @@ public class Scheduling {
         if (line.startsWith("process")) {
           StringTokenizer st = new StringTokenizer(line);
           st.nextToken();
-          ioBlockingInitial = Common.s2i(st.nextToken());
+          ioBlockingDelayInitial = Common.s2i(st.nextToken());
+          ioBlockingTime = Common.s2i(st.nextToken());
           up = Common.s2b(st.nextToken());
           X = Common.R1();
           while (X == -1.0) {
@@ -60,7 +62,7 @@ public class Scheduling {
           }
           X = X * standardDev;
           cputime = (int) X + meanDev;
-          processVector.addElement(new sProcess(cputime, ioBlockingInitial, up, 0, 0, 0));          
+          processVector.addElement(new sProcess(cputime, ioBlockingDelayInitial, ioBlockingTime, up, 0, 0, 0));          
         }
         if (line.startsWith("runtime")) {
           StringTokenizer st = new StringTokenizer(line);
@@ -86,7 +88,7 @@ public class Scheduling {
     int size = processVector.size();
     for (i = 0; i < size; i++) {
       sProcess process = (sProcess) processVector.elementAt(i);
-      System.out.println("process " + i + " " + process.cputime + " " + process.ioBlockingInitial + " " + process.cpudone + " " + process.numblocked);
+      System.out.println("process " + i + " " + process.cputime + " " + process.ioBlockingDelayInitial + " " + process.cpudone + " " + process.numblocked);
     }
     System.out.println("runtime " + runtime);
   }
@@ -118,7 +120,7 @@ public class Scheduling {
           }
           X = X * standardDev;
         int cputime = (int) X + meanDev;
-        processVector.addElement(new sProcess(cputime,i*100,true,0,0,0));          
+        processVector.addElement(new sProcess(cputime,i*100,i*30,true,0,0,0));          
         i++;
       }
     }
@@ -138,8 +140,8 @@ public class Scheduling {
         if (i < 100) { out.print("\t\t"); } else { out.print("\t"); }
         out.print(Integer.toString(process.cputime));
         if (process.cputime < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
-        out.print(Integer.toString(process.ioBlockingInitial));
-        if (process.ioBlockingInitial < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
+        out.print(Integer.toString(process.ioBlockingDelayInitial));
+        if (process.ioBlockingDelayInitial < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
         out.print(Integer.toString(process.cpudone));
         if (process.cpudone < 100) { out.print(" (ms)\t\t"); } else { out.print(" (ms)\t"); }
         out.println(process.numblocked + " times");

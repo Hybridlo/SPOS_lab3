@@ -26,56 +26,85 @@ public class SchedulingAlgorithm {
       sProcess process = (sProcess) processVector.elementAt(currentProcess);
       
       process.updateExpectedTime();
-      out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingNow + " " + process.cpudone + " " + process.cpudone + ")");
+      out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingDelayNow + " " + process.cpudone + " " + process.cpudone + ")");
+      
       while (comptime < runtime) {
         if (process.cpudone == process.cputime) {
           completed++;
-          out.println("Process: " + currentProcess + " completed... (" + process.cputime + " " + process.ioBlockingNow + " " + process.cpudone + " " + process.cpudone + ")");
+          out.println("Process: " + currentProcess + " completed... (" + process.cputime + " " + process.ioBlockingDelayNow + " " + process.cpudone + " " + process.cpudone + ")");
+          
           if (completed == size) {
             result.compuTime = comptime;
             out.close();
             return result;
           }
+          
           float minExpectedTime = 1000000;
           for (i = size - 1; i >= 0; i--) {
             process = (sProcess) processVector.elementAt(i);
-            if (process.expectedTime < minExpectedTime && process.cpudone < process.cputime) {
+            
+            if (process.expectedTime < minExpectedTime && process.cpudone < process.cputime && !process.isBlocked) {
             	minExpectedTime = process.expectedTime;
             	currentProcess = i;
             }
           }
+          
           process = (sProcess) processVector.elementAt(currentProcess);
           process.updateExpectedTime();
-          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingNow + " " + process.cpudone + " " + process.cpudone + ")");
+          
+          out.println("Time elapsed since start: " + comptime);
+          
+          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingDelayNow + " " + process.cpudone + " " + process.cpudone + ")");
         }      
-        if (process.ioBlockingNow == process.ionext) {
-          out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioBlockingNow + " " + process.cpudone + " " + process.cpudone + ")");
+        
+        if (process.ioBlockingDelayNow == process.ionext) {
+          out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioBlockingDelayNow + " " + process.cpudone + " " + process.cpudone + ")");
+          process.isBlocked = true;
+          out.println("Blocking time: " + process.ioBlockingTime);
 
           if (process.expectedTime == 0.0)
-        	  process.expectedTime = process.ioBlockingNow;
+        	  process.expectedTime = process.ioBlockingDelayNow;
           else
-        	  process.expectedTime = process.expectedTime * coefficient + process.ioBlockingNow * (1 - coefficient);
-          out.println("Process: " + currentProcess + " expected time = " + process.expectedTime);
+        	  process.expectedTime = process.expectedTime * coefficient + process.ioBlockingDelayNow * (1 - coefficient);
+          
+          out.println("Process: " + currentProcess + " expected time = " + process.expectedTime + "\n");
           process.numblocked++;
           process.ionext = 0; 
           previousProcess = currentProcess;
+          
           float minExpectedTime = 1000000;
           for (i = size - 1; i >= 0; i--) {
             process = (sProcess) processVector.elementAt(i);
-            if (process.expectedTime < minExpectedTime && previousProcess != i && process.cpudone < process.cputime) { 
+            if (process.expectedTime < minExpectedTime && previousProcess != i && process.cpudone < process.cputime && !process.isBlocked) { 
             	minExpectedTime = process.expectedTime;
             	currentProcess = i;
             }
           }
+          
           process = (sProcess) processVector.elementAt(currentProcess);
           process.updateExpectedTime();
-          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingNow + " " + process.cpudone + " " + process.cpudone + ")");
-        }        
-        process.cpudone++;       
-        if (process.ioBlockingNow > 0) {
-          process.ionext++;
+          
+          out.println("Time elapsed since start: " + comptime);
+          
+          out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioBlockingDelayNow + " " + process.cpudone + " " + process.cpudone + ")");
+        }   
+        
+        if (!process.isBlocked) {
+        	
+	        process.cpudone++; 
+     
+	        if (process.ioBlockingDelayNow > 0) {
+	          process.ionext++;
+	        }
+	        
         }
+        
         comptime++;
+        
+        for(int k = 0; k < size; k++) {
+        	sProcess proc = (sProcess) processVector.elementAt(k);
+        	proc.incrementIoBlockedTime();
+        }
       }
       out.close();
     } catch (IOException e) { /* Handle exceptions */ }
